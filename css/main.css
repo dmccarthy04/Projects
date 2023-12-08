@@ -1,0 +1,136 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: 200px 900px;
+    border: 1px solid black;
+    border-bottom: 0px;
+    background-color: black;
+}
+header {
+    display: inline;
+    background-color: darkred;
+    color: white;
+    list-style:none;
+    grid-column: 1/4;
+    text-align: center;
+}
+.Left {
+    display: grid;
+    grid-template-rows: 1.5fr 0fr 1fr 2fr;
+    background-color: black;
+    color: white;
+    border:1px solid black;
+    padding-left: 20px;
+}
+.Center {
+    display: grid;
+    grid-template-rows: 1fr .25fr 1fr .25fr;
+    background-color: green;
+    color: white;
+    border: 10px solid saddlebrown;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+.Right {
+    background-color:palegoldenrod;
+    border:1px solid black;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#logo {
+    width: 300px;
+    height: 200px;
+}
+#cards {
+    padding-left: 20px;
+}
+.cardImg {
+    margin: 10px;
+    height: 175px;
+}
+#uBet {
+    height: 22px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#betButton {
+    border-radius: 15px;
+    font-size: 24px;
+    background-color: darkred;
+    color: white;
+}
+#handStatus {
+    border: white;
+}
+#secondArea {
+    color: red;
+}
+#table {
+    color: white;
+}
+#overall{
+    border: white;
+}
+#thirdArea > p {
+    color: blue;
+}
+#userCards {
+    align-self: start;
+}
+#dealerCards {
+    align-self: start;
+}
+#hit {
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: darkred;
+    color: white;
+}
+#stay {
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: darkred;
+    color: white;
+    margin-left: 20px;
+}
+#dealerPlay {
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: darkred;
+    color: white;
+    margin-left: 20px;
+}
+#winImg {
+    width: 150px;
+}
+#loseImg {
+    width: 200px;
+}
+#bustImg {
+    position: relative;
+    width: 300px;
+}
+#blackJack {
+    width: 150px;
+}
+footer {
+    display: flex;
+    border: 1px solid black;
+    border-top: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    background-color: darkred;
+    justify-content: center;
+    align-items: center;
+}
+footer > p {
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+}

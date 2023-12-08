@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BlackJack</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/game.js"></script>
+</head>
+<body onload="UI.updateUserTable(User); UI.updateGameTable(Dealer, User)">
+<div id="grid-container">
+    <header>
+        <h2> BlackJack Plus </h2>
+        <img id="logo" src="imgs/aces.png">
+    </header>
+    <div class="Left">
+        <div id="firstArea">
+            <h2> Place your bet. </h2>
+            <p> Enter Bet to Start</p>
+            <label for="uBet"> Bet </label>
+            <input type="text" name="bet" id="uBet"/>
+            <button type="button" id="betButton" onClick="startGame();"> Bet </button>
+            <div id="betMsg"> </div>
+        </div>
+        <div id="secondArea">
+
+        </div>
+        <div id="table">
+
+        </div>
+        <div id="thirdArea">
+
+        </div>
+    </div>
+    <div class="Center">
+        <div id="dealerCards">
+
+        </div>
+        <div id="dealerButtons">
+
+        </div>
+        <div id="userCards">
+
+        </div>
+        <div id="userButtons">
+
+        </div>
+        </div>
+    </div>
+<footer>
+    <p>Game by Daniel McCarthy - 2023</p>
+</footer>
+</body>
+</html>
